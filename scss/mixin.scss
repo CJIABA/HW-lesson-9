@@ -1,0 +1,12 @@
+$main_color: #4B7589;
+$trebuchet:"Trebuchet MS", Helvetica, sans-serif;
+$links_color: #E11D5C;
+$border:1px solid #4B7589;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+  behavior: url(PIE.htc);
+}
